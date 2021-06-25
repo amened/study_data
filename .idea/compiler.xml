@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flink-benchmark" />
+        <module name="maven" />
+        <module name="hdfs-bench" />
+        <module name="scalabase" />
+        <module name="zookeeperapi" />
+        <module name="storm-benchmark" />
+        <module name="maventest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="flink-benchmark" target="1.8" />
+      <module name="hdfs-bench" target="8" />
+      <module name="maven" target="1.7" />
+      <module name="maventest" target="1.8" />
+      <module name="scalabase" target="8" />
+      <module name="storm-benchmark" target="1.8" />
+      <module name="zookeeperapi" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
